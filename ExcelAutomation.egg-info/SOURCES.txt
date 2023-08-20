@@ -1,0 +1,7 @@
+setup.py
+ExcelAutomation.egg-info/PKG-INFO
+ExcelAutomation.egg-info/SOURCES.txt
+ExcelAutomation.egg-info/dependency_links.txt
+ExcelAutomation.egg-info/requires.txt
+ExcelAutomation.egg-info/top_level.txt
+src/__init__.py

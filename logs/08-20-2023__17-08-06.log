@@ -1,0 +1,37 @@
+[2023-08-20 17:08:08,598] 11 root - INFO - >>>>>>>>>>> Inside class: InitiatePipeConfig <<<<<<<<<<<<
+[2023-08-20 17:08:08,599] 15 root - INFO - Directory created: D:\DS\Project\ExcelAutomation\artifact\08-20-2023__170808
+[2023-08-20 17:08:08,599] 16 root - INFO - >>>>>>>>>>> Exit from class: InitiatePipeConfig <<<<<<<<<<<<
+[2023-08-20 17:08:08,599] 25 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Inside the Class: DataIngestionConfig <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2023-08-20 17:08:08,599] 30 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Exit Class: DataIngestionConfig <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2023-08-20 17:08:08,599] 14 root - INFO - >>>>>>>>>>>>>> Inside Class: DataIngestion <<<<<<<<<<<<<
+[2023-08-20 17:08:08,599] 22 root - INFO - >>>>>>>>> Inside method: DataIngestion.execute <<<<<<<<<<<
+[2023-08-20 17:08:08,599] 23 root - INFO - ================== Data Ingestion Initiated =====================
+[2023-08-20 17:08:08,600] 29 root - INFO - Input Directory created: D:\DS\Project\ExcelAutomation\artifact\08-20-2023__170808\data_ingestion\input
+[2023-08-20 17:08:08,600] 34 root - INFO - Template Directory created: D:\DS\Project\ExcelAutomation\artifact\08-20-2023__170808\data_ingestion\template
+[2023-08-20 17:08:08,600] 37 root - INFO - Input file name Pulled
+[2023-08-20 17:08:08,601] 38 root - INFO - Input files: ['Input.xlsx']
+[2023-08-20 17:08:08,601] 43 root - INFO - Input file path created: D:\DS\Project\ExcelAutomation\Input\Input.xlsx
+[2023-08-20 17:08:08,601] 49 root - INFO - Destination file path for Input created: D:\DS\Project\ExcelAutomation\artifact\08-20-2023__170808\data_ingestion\input\Input.xlsx
+[2023-08-20 17:08:08,601] 51 root - INFO - Input File Input.xlsx copy initiated
+[2023-08-20 17:08:08,601] 11 root - INFO - copy file initiated from D:\DS\Project\ExcelAutomation\Input\Input.xlsx to D:\DS\Project\ExcelAutomation\artifact\08-20-2023__170808\data_ingestion\input\Input.xlsx
+[2023-08-20 17:08:08,602] 18 root - INFO - copy file completed from D:\DS\Project\ExcelAutomation\Input\Input.xlsx to D:\DS\Project\ExcelAutomation\artifact\08-20-2023__170808\data_ingestion\input\Input.xlsx
+[2023-08-20 17:08:08,602] 53 root - INFO - Input File Input.xlsx copy Finished
+[2023-08-20 17:08:08,602] 57 root - INFO - Template file path created: D:\DS\Project\ExcelAutomation\Template\Template.xlsx
+[2023-08-20 17:08:08,602] 61 root - INFO - Destination file path for Template created: D:\DS\Project\ExcelAutomation\artifact\08-20-2023__170808\data_ingestion\template\Template.xlsx
+[2023-08-20 17:08:08,602] 67 root - INFO - Template File copy initiated
+[2023-08-20 17:08:08,602] 11 root - INFO - copy file initiated from D:\DS\Project\ExcelAutomation\Template\Template.xlsx to D:\DS\Project\ExcelAutomation\artifact\08-20-2023__170808\data_ingestion\template\Template.xlsx
+[2023-08-20 17:08:08,603] 18 root - INFO - copy file completed from D:\DS\Project\ExcelAutomation\Template\Template.xlsx to D:\DS\Project\ExcelAutomation\artifact\08-20-2023__170808\data_ingestion\template\Template.xlsx
+[2023-08-20 17:08:08,603] 69 root - INFO - Template File copy completed
+[2023-08-20 17:08:08,603] 74 root - INFO - Data Ingestion artifact created: DataIngestionArtifact(template_file_path='D:\\DS\\Project\\ExcelAutomation\\artifact\\08-20-2023__170808\\data_ingestion\\template\\Template.xlsx', input_file_path_list=['D:\\DS\\Project\\ExcelAutomation\\artifact\\08-20-2023__170808\\data_ingestion\\input\\Input.xlsx'])
+[2023-08-20 17:08:08,603] 75 root - INFO - >>>>>>>>> Exit method: DataIngestion.execute <<<<<<<<<<<
+[2023-08-20 17:08:08,603] 76 root - INFO - ================== Data Ingestion Completed =====================
+[2023-08-20 17:08:08,604] 47 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Inside the Class: DataValidationConfig <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2023-08-20 17:08:08,604] 53 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Exit Class: DataValidationConfig <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2023-08-20 17:08:08,604] 16 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Inside class: DataValidation <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2023-08-20 17:08:08,604] 20 root - INFO - DataValidation Initiation completed
+[2023-08-20 17:08:08,604] 28 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Inside Method: DataValidation.execute <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2023-08-20 17:08:08,605] 35 root - INFO - Validating if all sheets in input files are present
+[2023-08-20 17:08:08,605] 85 root - INFO - Sheet Match initiated
+[2023-08-20 17:08:08,605] 86 root - INFO - Looking for sheets: ['Input', 'Sheet1', 'Output'] in input file Input.xlsx
+[2023-08-20 17:08:08,634] 88 root - INFO - Input file picked D:\DS\Project\ExcelAutomation\artifact\08-20-2023__170808\data_ingestion\input\Input.xlsx
+[2023-08-20 17:08:08,634] 81 root - ERROR - Reference Sheets: ['Sheet1', 'Output'] is not present in input file Input.xlsx

@@ -1,0 +1,7 @@
+python-dotenv
+pandas
+numpy
+openpyxl
+PyYAML
+pywin32
+-e .
